@@ -1,5 +1,8 @@
 Q2. Programming Activities and fragments: Activity Life Cycle, Activity methods, Multiple Activities, Life Cycle of fragments and multiple fragments
 
+
+STEP 1: right click on 'com.example.myapplication' --> new --> kotlin class/file --> "AboutUS" name --> select class
+
 1 activity_main.xml:
 
 <?xml version="1.0" encoding="utf-8"?>
