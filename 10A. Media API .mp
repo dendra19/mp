@@ -1,4 +1,4 @@
-Step 1: Under res folder create new directory named as “raw” --> then download any audio file and Paste that file inside the raw directory.
+Step 1: right click on 'res' folder --> new --> create 'android resource directory' --> named as “raw” --> then download any audio file and Paste that file inside the raw directory.
 
 1. activity_main.xml :
 
@@ -15,6 +15,7 @@ Step 1: Under res folder create new directory named as “raw” --> then downlo
 
     <Button
         android:id="@+id/playButton"
+        android:layout_margin="110dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Play Audio" />
