@@ -11,15 +11,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/Item1"
-        android:title="Item1" />
-    <item
-        android:id="@+id/Item2"
-        android:title="Item2" />
-    <item
-        android:id="@+id/Item3"
-        android:title="Item3" />
+    <item android:title="Item1" android:id="@+id/Item1" />
+    <item android:title="Item2" android:id="@+id/Item2"/>
+    <item android:title="Item3" android:id="@+id/Item3"/>
 
 </menu>
 
