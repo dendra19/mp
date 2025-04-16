@@ -2,8 +2,8 @@
 2 Now right click on menu folder --> select New --> select Menu Resource File --> then enter "file name : menu " --> ok
 3 Then drag & drop 3 Menu Item in menu.xml (design)
 4. Now go to values folder --> then expand themes folder --> check both the theme files. 
-
-
+5. <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar"> conver to <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight">
+6. NoActionBar word in style tag
 
 1. menu.xml:
 <?xml version="1.0" encoding="utf-8"?>
