@@ -3,7 +3,29 @@
 3 Then drag & drop 3 Menu Item in menu.xml (design)
 4. Now go to values folder --> then expand themes folder --> check both the theme files. 
 
-1. MainActivity.kt:
+
+
+1. menu.xml:
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Item1"
+        android:title="Item1" />
+    <item
+        android:id="@+id/Item2"
+        android:title="Item2" />
+    <item
+        android:id="@+id/Item3"
+        android:title="Item3" />
+
+</menu>
+
+
+
+2. MainActivity.kt:
 
 package com.example.practical6menu_dialog
 
@@ -41,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-2. values\themes.xml :
+3. values\themes.xml :
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
@@ -54,7 +76,9 @@ class MainActivity : AppCompatActivity() {
     <style name="Theme.Practical6Menu_dialog" parent="Base.Theme.Practical6Menu_dialog" />
 </resources>
 
-3.color.xml:
+
+
+4.color.xml:
 
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
@@ -66,6 +90,9 @@ class MainActivity : AppCompatActivity() {
     <color name="teal_700">#018786</color>
 
 </resources>
+
+
+
 
 
 
